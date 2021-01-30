@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZarinSharp", "ZarinSharp\ZarinSharp.csproj", "{575CD948-74E6-49A7-B89D-1F19468CB72B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sample", "Sample\Sample.csproj", "{747BD4B8-5E99-4F3C-A33B-5E469FDCC4B6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{575CD948-74E6-49A7-B89D-1F19468CB72B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{575CD948-74E6-49A7-B89D-1F19468CB72B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{575CD948-74E6-49A7-B89D-1F19468CB72B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{575CD948-74E6-49A7-B89D-1F19468CB72B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{747BD4B8-5E99-4F3C-A33B-5E469FDCC4B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{747BD4B8-5E99-4F3C-A33B-5E469FDCC4B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{747BD4B8-5E99-4F3C-A33B-5E469FDCC4B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{747BD4B8-5E99-4F3C-A33B-5E469FDCC4B6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {38D04D3E-6DAD-4C66-BE2C-E8F2FC82EC20}
+	EndGlobalSection
+EndGlobal
