@@ -9,7 +9,7 @@ namespace ZarinSharp.Extensions
         {
             ZarinSharpOptions options = new();
             configureOptions?.Invoke(options);
-            services.AddSingleton<ZarinSharpOptions>(options);
+            services.AddSingleton(options);
             services.AddHttpClient<ZarinPalService>();
             return services;
         }

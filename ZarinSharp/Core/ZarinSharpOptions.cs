@@ -8,12 +8,8 @@
         public string MerchantId { get; set; }
 
         /// <summary>
-        /// از محیط سندباکس استفاده شود یا خیر | به طور پیش در حالت دیباگ فعال، و در حالت ریلیز غیرفعال خواهد بود.
+        /// از محیط سندباکس استفاده شود یا خیر | به طور پیش‌فعال فعال خواهد بود.
         /// </summary>
-#if DEBUG
         public bool IsSandbox { get; set; } = true;
-#else
-        public bool IsSandbox { get; set; } = false;
-#endif
     }
 }
